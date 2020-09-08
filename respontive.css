@@ -1,5 +1,5 @@
 /*untuk tablet*/
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1078px) {
   footer {
     width: 100%;
     position: absolute;
@@ -10,14 +10,25 @@
   .container {
 	margin-left: 20px;
 	font-style: bold;
+	padding-left: 20px;
+  	padding-right: 10px;
   }
 
    .front {
 	margin-left: auto;
+	padding-left: 80px;
+  	padding-right: 10px;
   }
 
    .copy-container {
 	margin-left: auto;
+	padding-left: 80px;
+  	padding-right: 10px;
+  }
+
+  .button {
+  	padding-left: 20px;
+  	padding-right: 10px;
   }
 
    button {
@@ -30,7 +41,7 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
+@media all and (max-width: 667px) {
   footer {
     width: 100%;
     position: absolute;
@@ -39,22 +50,42 @@
   }
 
   .container {
-  	margin-left: 10px;
+  	margin-left: auto;
+  	padding-left: 50px;
+  	padding-right: 10px;
+  	bottom: 0;
+	padding: 0;
   }
 
   .front {
 	margin-left: auto;
+	padding-left: 50px;
+  	padding-right: 10px;
+  	bottom: 0;
+	padding: 0;
   }
 
    .copy-container {
 	margin-left: auto;
+	padding-left: 50px;
+  	padding-right: 10px;
+  	bottom: 0;
+	padding: 0;
+  }
+
+   .button {
+   	margin: auto;
+  	padding-left: 20px;
+  	padding-right: 10px;
+  	padding-bottom: 15px;
+  	bottom: 0;
   }
 
    button {
-	margin-top: 17px;
 	margin-left: 40px;
-	margin-right: 0px;
+	margin-right:50px;
 	border: solid #fff;
+	font-size: 5px;
 	background-color: #fff;
 	border-radius: 10px;
   }
